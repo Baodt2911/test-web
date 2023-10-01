@@ -83,6 +83,11 @@
                     },
                 });
             }
+            const audio = document.querySelector("audio")
+            const avatarImg = document.querySelector(".avatar__img")
+            avatarImg.addEventListener("click",()=>{
+                audio.play()
+            })
         </script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </body>
